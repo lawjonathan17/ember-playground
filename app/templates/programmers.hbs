@@ -1,2 +1,13 @@
 {{page-title "Programmers"}}
-{{outlet}}
+{{!-- <h2>List of Programmers</h2> --}}
+
+{{!-- <ul>
+    {{#each @model as |programmer|}}
+    <li>{{programmer}}</li>
+    {{/each}}
+</ul> --}}
+
+<PeopleList
+    @title="List of Programmers"
+    @people={{@model}}
+/>
